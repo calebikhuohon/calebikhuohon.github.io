@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1" name="viewport" />
+  <meta content="#ffffff" name="theme-color" />
+  <meta content="#da532c" name="msapplication-TileColor" />
+
+  
+  <link href='&#x2F;icons&#x2F;site.webmanifest' rel="manifest" />
+  
+  
+  <link color="#5bbad5" href='&#x2F;icons&#x2F;safari-pinned-tab.svg' rel="mask-icon" />
+  
+  
+  <link href='&#x2F;icons&#x2F;favicon-16x16.png' rel="icon" sizes="16x16" type="image/png" />
+  
+  
+  <link href='&#x2F;icons&#x2F;favicon-32x32.png' rel="icon" sizes="32x32" type="image/png" />
+  
+  
+  <link href='&#x2F;icons&#x2F;apple-touch-icon.png' rel="apple-touch-icon" sizes="180x180" />
+  
+
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/galleria/1.6.1/themes/folio/galleria.folio.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/mapbox-gl@2.1.1/dist/mapbox-gl.min.css" rel="stylesheet" />
+  <link href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css" rel="stylesheet" />
+  <link href="https:&#x2F;&#x2F;calebikhuohon.com&#x2F;deep-thought.css" rel="stylesheet" />
+
+  <title>
+    
+DeepThought | Developing Cloud-Native Applications with Docker and Kubernetes: An introduction
+
+  </title>
+
+  
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-176984489-2"></script>
+  <script type="text/javascript">
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+    gtag("config", "UA-176984489-2");
+  </script>
+  
+
+  
+</head>
+
+<body class="has-background-white">
+  <nav aria-label="section navigation" class="navbar is-light" role="navigation">
+    <div class="container">
+      <div class="navbar-brand">
+        <a class="navbar-item is-size-5 has-text-weight-bold" href="https:&#x2F;&#x2F;calebikhuohon.com">DeepThought</a>
+        <a aria-expanded="false" aria-label="menu" class="navbar-burger burger" data-target="navMenu" role="button">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+      <div class="navbar-menu" id="navMenu">
+        <div class="navbar-end has-text-centered">
+          
+          
+          
+          <a class="navbar-item has-text-weight-semibold" href="https:&#x2F;&#x2F;calebikhuohon.com&#x2F;">
+            Home
+          </a>
+          
+          <a class="navbar-item has-text-weight-semibold" href="https:&#x2F;&#x2F;calebikhuohon.com&#x2F;posts">
+            Posts
+          </a>
+          
+          <a class="navbar-item has-text-weight-semibold" href="https:&#x2F;&#x2F;calebikhuohon.com&#x2F;talks">
+            Talks
+          </a>
+          
+          <a class="navbar-item has-text-weight-semibold" href="https:&#x2F;&#x2F;calebikhuohon.com&#x2F;tags">
+            Tags
+          </a>
+          
+          <a class="navbar-item has-text-weight-semibold" href="https:&#x2F;&#x2F;calebikhuohon.com&#x2F;categories">
+            Categories
+          </a>
+          
+          
+          
+          <a class="navbar-item" id="nav-search" title="Search" data-target="#search-modal">
+            <span class="icon">
+              <i class="fas fa-search"></i>
+            </span>
+          </a>
+          <a class="navbar-item" id="dark-mode" title="Switch to dark theme">
+            <span class="icon">
+              <i class="fas fa-adjust"></i>
+            </span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  
+<section class="section">
+  <div class="container">
+    <div class="columns">
+      <div class="column is-8 is-offset-2">
+        <article class="box">
+          <h1 class="title">
+            Developing Cloud-Native Applications with Docker and Kubernetes: An introduction
+          </h1>
+          <p class="subtitle"></p>
+          <div class="columns is-multiline is-gapless">
+            <div class="column is-8">
+              
+<span class="icon-text has-text-grey">
+  <span class="icon">
+    <i class="fas fa-user"></i>
+  </span>
+  <span>Caleb Ikhuohon published on</span>
+  <span class="icon">
+    <i class="far fa-calendar-alt"></i>
+  </span>
+  <span><time datetime="2020-03-24">March 24, 2020</time></span>
+</span>
+
+            </div>
+            <div class="column is-4 has-text-right-desktop">
+              
+<span class="icon-text has-text-grey">
+  <span class="icon">
+    <i class="far fa-clock"></i>
+  </span>
+  <span>5 min,</span>
+  <span class="icon">
+    <i class="fas fa-pencil-alt"></i>
+  </span>
+  <span>901 words</span>
+</span>
+
+            </div>
+            <div class="column">
+              
+              
+<p>
+  Categories:
+  
+  <a class="has-text-info-dark has-text-weight-semibold" href="https:&#x2F;&#x2F;calebikhuohon.com&#x2F;categories&#x2F;kubernetes&#x2F;">
+    <span class="icon-text">
+      <span class="icon">
+        <i class="fas fa-cube"></i>
+      </span>
+      <span>kubernetes</span>
+    </span>
+  </a>
+  
+</p>
+
+              
+            </div>
+            <div class="column has-text-right-desktop">
+              
+              
+<p>
+  Tags:
+  
+  <a class="has-text-info-dark has-text-weight-semibold" href="https:&#x2F;&#x2F;calebikhuohon.com&#x2F;tags&#x2F;post&#x2F;">
+    <span class="icon-text">
+      <span class="icon">
+        <i class="fas fa-tag"></i>
+      </span>
+      <span>post</span>
+    </span>
+  </a>
+  
+  <a class="has-text-info-dark has-text-weight-semibold" href="https:&#x2F;&#x2F;calebikhuohon.com&#x2F;tags&#x2F;kubernetes&#x2F;">
+    <span class="icon-text">
+      <span class="icon">
+        <i class="fas fa-tag"></i>
+      </span>
+      <span>kubernetes</span>
+    </span>
+  </a>
+  
+  <a class="has-text-info-dark has-text-weight-semibold" href="https:&#x2F;&#x2F;calebikhuohon.com&#x2F;tags&#x2F;docker&#x2F;">
+    <span class="icon-text">
+      <span class="icon">
+        <i class="fas fa-tag"></i>
+      </span>
+      <span>docker</span>
+    </span>
+  </a>
+  
+  <a class="has-text-info-dark has-text-weight-semibold" href="https:&#x2F;&#x2F;calebikhuohon.com&#x2F;tags&#x2F;cloud-native&#x2F;">
+    <span class="icon-text">
+      <span class="icon">
+        <i class="fas fa-tag"></i>
+      </span>
+      <span>cloud-native</span>
+    </span>
+  </a>
+  
+</p>
+
+              
+            </div>
+          </div>
+          <div class="content mt-2">
+            <p><img src="https://paper-attachments.dropbox.com/s_1651C3411EE027BE0235129E3A1BE82124D13006F89B2F161A71EFBA2AEA0D30_1585081959464_Illustrationsss.png" alt="" /></p>
+<p>In today’s age of cloud computing, developing applications on the cloud is a good way to ensure the sustainability of businesses as these applications can be easily scaled to meet the growing needs of the business. However, the infrastructure and technologies required to develop these applications on the cloud could prove complex and difficult to understand for anyone looking to move past having some interest in cloud-native applications. </p>
+<h2 id="overview">Overview</h2>
+<p>This is the first in a series of articles that aim to explore practical steps to developing a production workflow for our cloud applications. We’d be making use of an application that has a UI and web server, and makes use of a Redis cache, and PostgreSQL database.</p>
+<p>These logical units would be properly bundled up with <a href="https://docker.com/">Docker</a> and dynamically scaled up with <a href="https://kubernetes.io/">Kubernetes</a>, a buzzword in today’s cloud engineering environment, which we would explore in this series.</p>
+<p>In this article, we would explore the world of Docker and why it is quite popular in our tech world.</p>
+<hr />
+<h2 id="prerequisites">Prerequisites</h2>
+<ul>
+<li>Familiarity with Bash and the Linux terminal.</li>
+<li><a href="https://www.docker.com/">Docker</a> installed on your local machine. See the installation guides <a href="https://docs.docker.com/install/">here</a>.</li>
+</ul>
+<h2 id="basic-setup">Basic Setup</h2>
+<p>Though this series doesn’t intend to focus on a particular dev stack, we would be working with a Node.js and React application setup that uses calculates the value of an index in the Fibonacci sequence. Expertise with these technologies is not required as the focus would be on Docker and Kubernetes. All the code we’d use in this series is available <a href="https://github.com/calebikhuohon/complesso">here</a>.</p>
+<hr />
+<h2 id="why-docker">Why Docker?</h2>
+<p>As described by <a href="https://en.wikipedia.org/wiki/Docker_(software)">Wikipedia</a>, </p>
+<blockquote>
+<p><strong>Docker</strong> is a set of platform as a service (PaaS) products that uses OS-level virtualization to deliver software in packages called containers.</p>
+</blockquote>
+<p>Docker makes it really easy to run software on any computer, be it your PC or a remote web server. To demonstrate this, I’ll try to use a typical developer software package, say <a href="https://redis.io/">Redis</a>, on my Ubuntu PC.</p>
+<p>After running the command, <code>redis-cli</code> in the terminal, I am quickly informed that Redis isn’t installed on my PC and I’ll need to install it with the provided command. Quite often, installing software packages may not always be the most exciting process due to the several steps that may be involved and the probability of the installation failing at some point.</p>
+<p>Docker solves this by making the Redis package available from its public registry of <em><strong>images</strong></em>, known as the <a href="https://redis.io/">Docker Hub</a>. With Docker installed, running Redis becomes as simple as this:</p>
+<p><img src="https://github.com/calebikhuohon/personal-blog/themes/DeepThought/static/images/redis-image.png" alt="Container running the Redis Image" /></p>
+<p>Docker obtains the Redis image from the Docker Hub and uses this image to create a <em><strong>container</strong></em> that houses our Redis server. Docker makes software installation easy as it cuts out a whole lot of issues relating to setup and dependencies when installing software the traditional way.</p>
+<p>We’d have noticed the word “image” mentioned sparingly in previous paragraphs. Well, what is an image 🤔? An image can be viewed as a single file with all the dependencies and configurations required to run a program. These images are immutable hence you’re sure your image will always work as expected. Updates to an image are made by creating new versions of the image, which are entirely new images.</p>
+<p>Images are used to create containers. Containers are programs with their own isolated set of resources (RAM, disk space, etc) carved out of the existing resources on your local machine or remote server. They are instances of an image.</p>
+<p>Now that we’ve looked at images and containers, we can analyze the workings of <code>docker run -it redis</code> command which we’ve silently ignored.  <code>docker</code> references the <a href="https://docs.docker.com/engine/docker-overview/#the-docker-client">Docker client,</a> a tool that accepts and parses commands for the Docker Server.  The Docker Server starts the container with the Redis image and first checks to see if a local cache of the image is available. If none, it requests for the image from the Docker Hub.</p>
+<p>All running processes in a Linux environment (For Mac and Windows, Docker runs containers in a virtual Linux machine) has at least 3 communication channels attached to it: <code>STDIN</code>, <code>STDOUT</code>, and <code>STDERR</code>. Commands typed into the terminal are attached to any <code>STDIN</code> channel on the Redis CLI. <code>STDOUT</code> makes it possible to get output from a running process and <code>STDERR</code> conveys errors that occur in the process.</p>
+<p><code>-it</code> flags are actually two separate flags, <code>-i</code> and <code>-t</code>. <code>-i</code> indicates that we want to attach our running terminal instance to the <code>STDIN</code> channel of the new running process and the  <code>-t</code> flag makes the text been inputted and outputted from the terminal appear nicely formatted. It also provides other features such as auto-completion in the terminal. </p>
+<h2 id="conclusion">Conclusion</h2>
+<p>We’ve looked at the introductory part of a series of articles on Docker and Kubernetes, the need for docker and the basics of images and containers. In the next article, we would see how Docker could be used to create images for our application and how Docker Volumes could be created for our Redis and PostgreSQL databases. </p>
+<h2 id="further-reading">Further Reading</h2>
+<ul>
+<li>https://stackify.com/docker-image-vs-container-everything-you-need-to-know/</li>
+<li>https://www.docker.com/resources/what-container</li>
+<li>https://docs.docker.com/</li>
+<li>https://stackify.com/cloud-native/</li>
+</ul>
+<h2 id="resources">Resources</h2>
+<ul>
+<li>https://github.com/calebikhuohon/complesso</li>
+</ul>
+
+          </div>
+        </article>
+      </div>
+      
+    </div>
+  </div>
+</section>
+
+
+  
+  <section class="modal" id="search-modal">
+    <div class="modal-background"></div>
+    <div class="modal-card">
+      <header class="modal-card-head">
+        <p class="modal-card-title">Search</p>
+      </header>
+      <section class="modal-card-body">
+        <div class="field mb-2">
+          <div class="control">
+            <input class="input" id="search" placeholder="Search this website." type="search" />
+          </div>
+        </div>
+        <div class="search-results">
+          <div class="search-results__items"></div>
+        </div>
+      </section>
+    </div>
+    <button aria-label="close" class="modal-close is-large"></button>
+  </section>
+  
+
+
+  
+
+
+
+  
+
+
+
+  <footer class="footer py-4">
+    <div class="content has-text-centered">
+      <p>
+        Built with
+        <span class="icon-text">
+          <span class="icon">
+            <i class="fas fa-code"></i>
+          </span>
+          <span>code</span>
+        </span>
+        and
+        <span class="icon-text">
+          <span class="icon">
+            <i class="fas fa-heart"></i>
+          </span>
+          <span>love</span>
+        </span>
+      </p>
+      <p>
+        Powered by
+        <span class="icon-text">
+          <span class="icon">
+            <i class="fas fa-power-off"></i>
+          </span>
+          <span>zola</span>
+        </span>
+      </p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/galleria/1.6.1/galleria.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mermaid@8.9.2/dist/mermaid.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.xkcd@1.1.13/dist/chart.xkcd.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mapbox-gl@2.1.1/dist/mapbox-gl.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/galleria/1.6.1/themes/folio/galleria.folio.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/elasticlunr/0.9.6/elasticlunr.min.js"></script>
+  <script src="https:&#x2F;&#x2F;calebikhuohon.com&#x2F;search_index.en.js"></script>
+  <script src="https:&#x2F;&#x2F;calebikhuohon.com&#x2F;js&#x2F;site.js"></script>
+
+  
+
+
+
+
+</body>
+
+</html>
