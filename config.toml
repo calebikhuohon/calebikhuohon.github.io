@@ -14,7 +14,6 @@ theme = "DeepThought"
 highlight_code = true
 title = "DeepThought"
 default_language = "en"
-highlight_code = true
 highlight_theme = "one-dark"
 generate_feed = true
 feed_filename = "rss.xml"
